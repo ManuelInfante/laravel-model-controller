@@ -1,0 +1,110 @@
+// LAYOUT
+
+// CONTAINERS
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+
+
+// FLEX PROPERIES
+
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-spaceBetween{
+    justify-content: space-between;
+}
+
+.justify-spaceAround{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.both-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+
+//TEXT PROPERTIES
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+// GENERAL
+
+.white-text{
+    color: white;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pb-40{
+    padding-bottom: 40px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pl-20{
+    padding-left: 20px;
+}
+
+.borderBottom-black{
+    border-bottom: 2px solid black;
+}
+
+.red-text{
+    color: red;
+}
+
+.gray-background{
+    background-color: rgb(202, 202, 202);
+}
